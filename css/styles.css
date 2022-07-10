@@ -1,0 +1,243 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    background-color: #F9FAF8;
+    text-align: center;
+}
+
+.logoImg{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 10em;
+
+}
+
+
+
+.headerBar{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    background-color:#1F2937;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    
+}
+
+
+.rightBarContainer *{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.rightBarItems *{
+    display: flex;
+    color: #E5E7EB;
+    text-decoration: none;
+    align-items: center;
+    margin: 0.6vw;
+    font-size: 18px;
+    
+
+}
+
+
+.heroContainer{
+    display: flex;
+    background-color: #1F2937;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    margin: 9em auto 0 auto;
+    height: 100%;
+    border-radius: 1.5em;
+}
+
+
+.heroLeftContainer {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-right:40em;
+    width: 40vw;
+}
+
+.welcome{
+    overflow: hidden;
+    clear: both;
+    display: inline-block;
+    font-size: 48px;
+    color:#F9FAF8;
+    font-weight: bold;
+    margin-right:4em;
+   
+    
+    
+}
+
+.description{
+    overflow: hidden;
+    clear: both;
+    font-size: 18px;
+    color:#E5E7EB;
+    margin: auto;
+    display: inline-block;
+    white-space:pre-line;
+    margin-right: 15em;
+   
+   
+}
+
+.buttonHero button{
+    background-color:#3882f6;
+    border-radius: 0.5em;
+    border: 2px solid #3882f6 ;
+    color: white;
+    width: 100px;
+    margin-right:51em;
+    margin-top: 1em;
+    border-color: #fff;
+    
+   
+    
+}
+.buttonHero:hover{
+    background-color: #1F2937;
+
+}
+
+.heroRigthContainer * {
+    display: flex;
+    flex-direction: row ;
+    width: 10em;
+
+}
+
+.box-content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    margin: 4em;
+}
+
+.title-info{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+
+.boxImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+        
+    
+}
+
+.bird img{
+width: 10em;
+height: 10em;
+object-fit: cover;
+border: 4px solid #3882F6;
+border-radius: 15px;
+margin: 5px 20px 0px 20px
+}
+
+.bear img{
+width: 10em;
+height: 10em;
+object-fit: cover;
+border: 4px solid #3882F6;
+border-radius: 15px;
+margin: 5px 20px 0px 20px
+}
+.bison img{
+width: 10em;
+height: 10em;
+object-fit: cover;
+border: 4px solid #3882F6;
+border-radius: 15px;
+margin: 5px 20px 0px 20px
+}
+.beaver img {
+width: 10em;
+height: 10em;
+object-fit: cover;
+border: 4px solid #3882F6;
+border-radius: 15px;
+margin: 5px 20px 0px 20px
+}
+
+.quoteBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:25em;
+    margin-bottom:10em;
+    padding: 100px 200px 100px 200px;
+    background-color: #E5E7EB;
+    width:85%
+
+}
+.quoteBox p{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.quoteBox b{
+    margin-left: 100em;
+    
+}
+
+
+.signContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    border: 10px;
+    margin: 50px 200px;
+    padding: 10px 80px; 
+    border-radius: 10px;
+}
+
+.sign-text{
+    text-align: left;
+    flex: 1;
+}
+
+.sign-button button{
+    color: white;
+    background-color: #3882f6;
+    border-color: #fff;
+    border-radius: 9px;
+    padding: 2px 17px 2px 17px;
+}
+
+
+.footer{
+    background-color:#1F2937;
+    color: white;
+    margin-top: 10em;
+    padding:15px;
+}
+
+
+
+
+
